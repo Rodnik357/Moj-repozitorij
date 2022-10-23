@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deus ex Ludus Mania</title>
+  </head>
+  <body style="background-color: brown; color: orange;"
+   >
+    <form action="#" 
+    method="get"
+    oninput='x.value=parseInt(a.value)*parseInt(b.value).toString() + "kuna"'
+    >
+
+    <fieldset>
+      <legend>Anonimus Confessus</legend>
+      <br />
+      <label for="Username">Not your real name</label>
+      <input type="text" name="Username" id="Username" /><br /><br />
+      <label for="e-mail">Your anonimus e-mail</label>
+      <input type="text" name="e-mail" id="e-mail" />
+    </fieldset>
+    <fieldset>
+      <legend>Gaming Mania</legend>
+      <br />
+      <p><b>Once a upon time, i went on adventure to big scary forest called Front end developing.<br>
+         After few days of walking i bashed into a storm full of codes and got lost. <br>
+        I started run through forest and suddenly in front of my face apperaed some good old fashioned tavern.
+      <br>
+    I entered the tavern and saw few figures next to fireplace, one of those figures turned over and said to me.</b></p>
+      <p>
+        <b>Some bearded guy:</b><br />
+        "<i
+          >Greeting's traveler, come, join, sit with us and warm up <br />
+          next to this cozy fire picture bellow this text.</i
+        >"
+      </p>
+      <img
+        src="./Multimedia-zadace/Zadaca3/tavern helovin.jpg"
+        alt="slika kamina za noc vjestica u WoW-u"
+        width="300px"
+      /> <br>
+      <img src="https://tvovermind.com/wp-content/uploads/2021/02/Tom-Bombadil.jpg" 
+      alt="Beardo ilitiga Tom Bombadil"
+      width="300px">
+      
+      <p>
+        <b>Still same bearded guy:</b> "<i>
+          Sooo, traveller ... tell us your story, witch game made you to explore
+          the
+          <br />
+          insane levels of gaming of your's?</i
+        >"
+      </p>
+
+      <label for="game"><b>Me:</b><i> "That would definently be ..."</i></label>
+      <select name="game" id="game">
+        <optgroup label="MMORPG">
+          <option value="Wow">ofcourse ... World of Warcraft</option>
+        </optgroup>
+        <optgroup label="MOBA">
+          <option value="LoL">uh ... it is ... League of Legends</option>
+        </optgroup>
+        <optgroup label="FPS">
+          <option value="UT">Good oldie ... Unreal tournament</option>
+          <option value="CoD">Check your ping Call of Duty</option>
+        </optgroup>
+        <optgroup label="Strategies">
+          <option value="CiV">Just on more turn Civ3,5,6 (no 4)</option>
+          <option value="AoE">Wololo ... Age of Empires 3</option>
+          <option value="HoMM3">only Heroes of Might and Magic 3</option>
+          <option value="EUIV">only Iron man mode Europa Universalis 4</option>
+        </optgroup>
+      </select>
+      <br />
+      <p>
+        <b>Again, Beardo:</b>
+        <i
+          >"Oh, i see ... that's preety darn good game to spend countless hours
+          <br />
+          on gaming and miss out all the beautiness of real life expirience."
+          <br /><br />
+
+          "Confess us traveller, how much time of your's did you spent on
+          playing video games?
+        </i>
+      </p>
+
+      <label for="time"></label>
+        <b>Me: </b> "Erm... uh ... (sratching behind head) i spent ...</label
+      >
+      <input list="time" name="time" style="width: 200px height 30px" />
+      <datalist id="time">
+        <option value="1000">
+          "something under 1000 hours, i am just casual gamer"
+        </option>
+        <option value="1000-5000">
+          above 1000, maybe 2000 or even 5000 hours... i loved to play games on
+          weekend
+        </option>
+        <option value="5000-10000">
+          something betweem 5000 and 10 000 hours after i took arrow to the knee
+        </option>
+        <option value="time relativity">
+          it doesn't matter, time is relative and i also found this secret map of location founatin
+          of Youth
+        </option>
+      </datalist>
+
+      <p>
+        <b>Beardo: </b>
+        <i>"Wooow that's alot, you must be really experienced in playing video games. <br>
+           Do you want to know how much money you could earn working on yor job inestad playing <br>
+          these video games?"</i>
+                </p> 
+      
+                <p><b>Me: </b><i>"I guess it would be interesting to calculate ... "</i></p> <br>
+
+                <label for="a">Time spended on gaming</label>
+                <input
+                  id="a"
+                  name="a"
+                  type="range"
+                  min="0"
+                  max="20000"
+                  value="100">
+                
+                  <label for="b">hourly wage</label>
+                <input
+                  id="b"
+                  name="b"
+                  type="range"
+                  min="0"
+                  max="100"
+                  value="5">
+
+                
+                <output name="x" for="a b">kuna</output>
+              
+              <p><b>Beardo: </b><i>"That is quite pile of money you could earn insted of playing games. <br> 
+                But still money isn't everything ... Life is one and preety limited, so you should do what makes <br>
+                you happy. <br><br>
+
+                Tell me your most interesting story you experienced by playing your favorite game."
+              </i></p>
+
+              <label for="mystory"><b>Me: </b><i>"This is my most interesting story from gaming days"</i></label><br><br>
+              <textarea name="mystory" id="mystory" cols="80" rows="15"></textarea>
+
+              <p><b>Also me: </b><i>"And that's it Beardo, my interesting story. Now i must go now, thanks for company <br>
+              and perhaps we will meet again in some other place, game or coding script. Live long and prosper."</i></p>
+
+          
+
+              
+              </form>
+              <button type="button" onclick="alert('Beardo: Hey traveller, the door lock is broken, you can enter but cant exit the tavern.')">Exit the door</button>                
+  </body>
+</html>
