@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="background-color: orange">
+    <form action="./index.htm" method="post">
+      <h1>Žare Pljeskavica</h1>
+      <p>
+        Najbolja pljeskavica na žaru je pogodite gdje ... <br />
+        pa naravno, kod Žare Pljeskavice!<br /><br />
+
+        Gladni ste? Onda ne okolišajte i brže bolje ispunite i pošaljite <br />
+        vaš narudžbu dok još ima žara kod Žare. <br /><br />
+
+        Grill Žare jer tu se jede za male pare <br />
+        Mmmmmm .... žaretova pljeskavica.
+      </p>
+    </form>
+
+    <label for="ime">Tvoje grumansko ime</label><br />
+    <input type="text" name="Ime" id="Ime" /><br />
+    <label for="password">Password (šifra)</label><br />
+    <input type="password" name="password" id="password" /><br />
+    <label for="e-mail">e-mail</label><br />
+    <input type="text" name="e-mail" id="e-mail" /><br />
+    <label for="Kontakt broj">Kontakt broj</label><br />
+    <input type="number" name="Kontakt broj" id="Kontakt broj" /><br />
+    <label for="Adresa">Adresa dostave</label><br />
+    <input type="text" name="Adresa" id="Adresa" /><br />
+    <hr />
+    <h2>Bitniji ... gurmanski dio</h2>
+    <p>
+      Sad kad imamo tvoj e-mail i kontakt broj, manimo se upoznavanja i pređimo
+      <br />
+      na onaj bitniji dio, kakvu ćeš pljesku i šta da ti stavimo u nju, na nju,
+      pod nju? Ajd krenimo redom ...
+    </p>
+    <p><b>Od ćega ćeš?</b></p>
+    <input type="radio" name="samojednomozes" id="Govedo" />
+    <label for="Govedo">... od goveda</label><br />
+    <input type="radio" name="samojednomozes" id="Prase" />
+    <label for="Prase">... od praseta</label><br />
+    <input type="radio" name="samojednomozes" id="Ovčetina" />
+    <label for="Ovčetina">... bee bee, od ovce</label><br />
+    <br />
+
+    <section class="zapećeno">
+      <label for="zapećeno"><b>Koliko ćeš da ti Žare zapeće?</b></label
+      ><br /><br />
+      <span
+        >Jaooo, šta je ovo!?<br />
+        Pa vi niste normalni, <br />
+        dali ste mi sirovo meso.</span
+      >
+      <input
+        type="range"
+        name="zapećeno"
+        id="zapećeno"
+        min="0"
+        max="10"
+        step="0.5"
+      />
+      <span>Žare, ŽARE ... izgoriše vam i pljeske i pečenjara</span>
+    </section>
+    <hr />
+    <section class="pecivo">
+      <label for="vrstelepinja"><b>Kakvo ćeš lepinju?</b></label>
+      <select name="lepinja" id="vrstelepinja">
+        <option value="lepinja">obicna lepinja</option>
+        <option value="lepinjastara">lepinja sta 3 dana</option>
+        <option value="lepinja sa žara">lepinja sa žara</option>
+        <option value="komplet lepinja">
+          komplet lepinja (kalorijska bomba)
+        </option>
+      </select>
+    </section>
+    <hr />
+    <section>
+      <p><b>Imam ti i sira ako hoćeš ...</b></p>
+      <input type="radio" name="samojedansir" id="Kravlji" />
+      <label for="Kravlji">Može Mu mu sir</label><br />
+      <input type="radio" name="samojedansir" id="Ovčji" />
+      <label for="Ovčji">Može Bee bee sir</label><br />
+      <input type="radio" name="samojedansir" id="Zdenka" />
+      <label for="Zdenka">Daaa ... Zdenka topljeni</label><br />
+      <input type="radio" name="samojedansir" id="ulisticima" />
+      <label for="ulisticima">može ovaj jeftini iz Lidla u listićima</label
+      ><br />
+      <input type="radio" name="samojedansir" id="necu" />
+      <label for="necu">ne bih hvala, muči me laktoza</label><br />
+    </section>
+    <hr />
+
+    <section class="Prilog">
+      <span><b>Šta ćeš od priloga?</b></span
+      ><br /><br />
+      <label for="Kapula">Kapula olitia luk</label>
+      <input type="checkbox" name="Prilog" id="Kapula" /><br />
+      <label for="Majonez">Majonez, samo ako je zvijezdina</label>
+      <input type="checkbox" name="Prilog" id="Majonez" /><br />
+      <label for="Ketchup">Kečap, samo zvijezdin</label>
+      <input type="checkbox" name="Prilog" id="Ketchup" /><br />
+      <label for="Kajmak">Kajmak, samo ako je domaći</label>
+      <input type="checkbox" name="Prilog" id="Kajmak" /><br />
+      <label for="Ajvar">Ajvar, samo ako je domaći</label>
+      <input type="checkbox" name="Prilog" id="Ajvar" /><br />
+      <label for="Salata">Salata, može i uvozna</label>
+      <input type="checkbox" name="Prilog" id="" /><br />
+      <label for="Sve">Ma znaš šta Žare, stavi sve</label>
+      <input type="checkbox" name="Prilog" id="Sve" /><br />
+    </section>
+    <hr />
+
+    <h2><b>Još malo pa gotovo dio</b></h2>
+
+    <p>
+      Evo prijatelju pljeska se radi a ti slobodno možeš krenuti po nju <br />
+      ili ako hoćeš dostavit će ti je naš mali kurir Perica ali to ćeš morati
+      <br />
+      dodatno platiti, jer znaš kako kažu ... nema džabe ni u stare babe.
+      <br /><br />
+
+      Za sve ostalo, komentare, žalbe, riječi hvale tu je ispod rubrika <br />
+      u koju nam se možeš slobodno javiti pa će možda netko, jednom nekad i
+      pročitati <br />
+      Nek je u slast prijatelju i da nam se opet javiš za novu porciju, buon
+      apetite!
+    </p>
+
+    <label for="zonakomentara">Evo ti prostor pa piši šta ti volja: </label>
+    <br /><br />
+    <textarea id="zonakomentara" name="zonakomentara" rows="20" cols="50">
+    </textarea>
+
+    <p>
+      P.S. Obavezno da nam slikas i posaljes sliku pljeske kad stigne <br />
+      jer mali kurir Perica tu i tamo voli ukrasti griz sa vaših pljeski.<br />
+    </p>
+
+    <label for="img">Slika pljeske</label>
+    <input
+      type="file"
+      name="img"
+      id="img"
+      accept="image/png, image/jpeg"
+    /><br /><br />
+
+    <input type="submit" value="Žare peci" />
+  </body>
+</html>
