@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Turistička agencija "Avanturist"</title>
+    <link rel="stylesheet" href="./Peti zadatak.css">
   </head>
   <body>
     <header>
-      <h1>Turistička agencija "Avanturist"</h1>
+      <h1 class="glavninaslov">Turistička agencija "Avanturist"</h1>
       <ul>
         <li><a href="#onama">O nama</a></li>
         <li><a href="#nasedjelatnosti">Naše djelatnosti</a></li>
@@ -16,33 +17,39 @@
       </ul>
       <hr />
     </header>
-    <main>
-      <h1>Turistička agencija "Avanturist"</h1>
+    <main id="glavnimain">
+      <h1 class="drugiglavninaslov">Turistička agencija "Avanturist"</h1>
       <section>
         <h2 id="onama">O nama</h2>
-        <p>
+        <div class="prvasekcija">
+          <div class="prvitext">
+          <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut eos
-          pariatur ea officiis <br />
+          pariatur ea officiis 
           consequatur quod iure? Ab veniam dolores iure ea distinctio quam optio
-          modi dignissimos <br />
+          modi dignissimos 
           aliquid quis adipisci eos consequuntur autem earum quae perferendis
-          magni, consectetur hic <br />
+          magni, consectetur hic 
           reiciendis officia neque nobis? Fugit modi quia vel accusantium
-          ducimus, ipsam voluptatum, <br />
+          ducimus, ipsam voluptatum,
           laborum, suscipit doloribus amet aspernatur hic ratione eum cupiditate
-          eaque obcaecati! <br />
+          eaque obcaecati! 
           Illum error tenetur quas, recusandae magni, magnam ipsa cupiditate
-          labore quam obcaecati <br />
+          labore quam obcaecati 
           necessitatibus voluptatem deleniti! Soluta molestias repellendus
-          mollitia vel. <br />
+          mollitia vel. 
           Fugiat iusto neque omnis? Similique facere soluta harum sint, sunt
-          modi amet dicta placeat <br />
+          modi amet dicta placeat 
           ea at iure fuga accusamus?
-        </p>
-        <img src="./Multimedia-zadace/Zadaca5/team.jpg" alt="onama" />
+          </p>
+        </div class="prvaslika">
+          <img src="./Multimedia-zadace/Zadaca5/team.jpg" alt="onama"/>
+        </div>
       </section>
       <section>
         <h2 id="nasedjelatnosti">Naše djelatnosti</h2>
+        <div class="drugasekcija">
+          <div class="drugitext">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dicta
           aspernatur laborum, minima asperiores perferendis maxime sunt eos
@@ -56,11 +63,15 @@
           praesentium quia dolorem minus nesciunt dolore placeat libero
           doloremque minima laboriosam! Neque eum amet unde eius libero!
         </p>
-        <img src="./Multimedia-zadace/Zadaca5/adventure.jpg" alt="nasedjelatnosti" />
+      </div>
+      <div class="drugaslika">
+        <img src="./Multimedia-zadace/Zadaca5/adventure.jpg" alt="nasedjelatnosti"/>
+      </div>
+    </div>
       </section>
-      <section>
+      <section class="trecasekcija">
         <h2 id="kontakt">Kontakt</h2>
-        <p>
+        <p style="display: inline;">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, vitae.
           Quaerat, recusandae omnis. Culpa, doloremque labore animi corrupti et
           repellat nisi id eos dolorem, quam molestias consectetur quasi quis
@@ -74,7 +85,9 @@
           facere quaerat necessitatibus molestias? Cupiditate molestias nesciunt
           recusandae magnam ratione.
         </p>
+      </section>
         <br />
+      <section class="cetvrtasekcija">  
       <form action="#" method="get"></form>
         <label for="flname">Ime i prezime</label><br />
         <input type="text" name="flname" id="flname" /> <br />
@@ -89,7 +102,7 @@
     </main>
     <footer>
       <p>Avanturist &copy; 2022.</p>
-      <a href="rodnik357@gmail.com"><img src="./Multimedia-zadace/Zadaca5/mail.png" alt="email" /></a>
+      <a href="rodnik357@gmail.com"><img src="./Multimedia-zadace/Zadaca5/mail.png" alt="email" maillogo="smanjen"/></a>
     </footer>
   </body>
 </html>
