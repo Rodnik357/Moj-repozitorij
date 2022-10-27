@@ -65,7 +65,7 @@ img {
 
 .prvaslika {
     float: right;
-}
+    }
 
 .drugitext {
     float: right;
@@ -82,3 +82,49 @@ img {
     text-align: center;
 }
 
+/* DROPDOWN MENU STYLING */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 540px;
+    width: 270px;   
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(208, 250, 250);
+    width: 100%;
+    padding-left: 20px;
+    color: rgb(255, 179, 79);
+    font: 15px;
+    font-weight: bold;
+    box-shadow: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* HOVER 4 OSNOVNA PRAVILA REDOSLIJEDOM I NIKAKO DRUGACIJE - PAZNJA! */
+
+/* 1. unvisited link */
+.dropdown:link .dropdown-content {
+    color: green;
+}
+
+/* 2. visited link */
+.dropdown:visited .dropdown-content {
+    color: lawngreen;
+}
+
+/* 3. mouse over link */
+.dropdown:hover .dropdown-content {
+    background-color: red;
+}
+
+/* 4. selected link */
+.dropdown:active .dropdown-content {
+    color: blue;
+}
